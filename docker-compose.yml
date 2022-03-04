@@ -9,6 +9,7 @@ services:
     container_name: cfl1
     ports:
       - "8787:8787"
+      - "8989:8989"
     restart: unless-stopped
 
 networks:
