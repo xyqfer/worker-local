@@ -10,8 +10,8 @@ COPY index.js ./
 
 COPY index2.js ./
 
+COPY run.sh ./
+
 EXPOSE 8787 8989
 
-CMD pm2 start "miniflare index.js"
-
-CMD pm2 start "miniflare index2.js -p 8989"
+ENTRYPOINT  ["run.sh"]
