@@ -14,4 +14,4 @@ COPY run.sh ./
 
 EXPOSE 8787 8989
 
-ENTRYPOINT  ["run.sh"]
+ENTRYPOINT  ["./run.sh"]
