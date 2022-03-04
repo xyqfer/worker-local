@@ -12,4 +12,4 @@ EXPOSE 8787 8989
 
 CMD [ "miniflare", "index.js" ]
 
-CMD [ "miniflare", "index2.js", "-p", "8989" ]
+# CMD [ "miniflare", "index2.js", "-p", "8989" ]
