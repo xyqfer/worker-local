@@ -12,6 +12,8 @@ COPY index2.js ./
 
 COPY run.sh ./
 
+RUN chmod a+x ./run.sh
+
 EXPOSE 8787 8989
 
 ENTRYPOINT  ["./run.sh"]
