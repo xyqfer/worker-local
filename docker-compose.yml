@@ -10,7 +10,7 @@ services:
     ports:
       - "8787:8787"
       - "8989:8989"
-    # restart: unless-stopped
+    restart: unless-stopped
 
 networks:
   captain-overlay-network:
