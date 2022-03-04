@@ -12,6 +12,6 @@ COPY index2.js ./
 
 EXPOSE 8787 8989
 
-RUN pm2 start "miniflare index.js"
+CMD pm2 start "miniflare index.js"
 
-RUN pm2 start "miniflare index2.js -p 8989"
+CMD pm2 start "miniflare index2.js -p 8989"
