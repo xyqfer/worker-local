@@ -16,4 +16,4 @@ RUN chmod a+x ./run.sh
 
 EXPOSE 8787 8989
 
-CMD ["./run.sh"]
+ENTRYPOINT  ["/usr/src/app/run.sh"]
