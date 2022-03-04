@@ -10,6 +10,8 @@ COPY index.js ./
 
 COPY index2.js ./
 
+COPY entry.js ./
+
 COPY run.sh ./
 
 RUN chmod a+x /usr/src/app/run.sh
