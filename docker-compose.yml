@@ -11,6 +11,7 @@ services:
       - "8787:8787"
       - "8989:8989"
       - "9090:9090"
+      - "9191:9191"
     restart: unless-stopped
 
 networks:

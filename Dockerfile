@@ -12,6 +12,8 @@ COPY index2.js ./
 
 COPY index3.js ./
 
+COPY index4.js ./
+
 COPY entry.js ./
 
 COPY run.sh ./
