@@ -3,7 +3,9 @@
 /**
  * static files (404.html, sw.js, conf.js)
  */
-const ASSET_URL = 'https://etherdream.github.io/jsproxy'
+// const ASSET_URL = 'https://etherdream.github.io/jsproxy'
+const ASSET_URL = 'https://blog.chromium.org'
+
 
 const JS_VER = 10
 const MAX_RETRY = 1
