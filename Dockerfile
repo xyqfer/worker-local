@@ -16,12 +16,14 @@ COPY index4.js ./
 
 COPY index5.js ./
 
+COPY index6.js ./
+
 COPY entry.js ./
 
 COPY run.sh ./
 
 RUN chmod a+x /usr/src/app/run.sh
 
-EXPOSE 8787 8989 9090 9191 9292
+EXPOSE 8787 8989 9090 9191 9292 9393
 
 ENTRYPOINT ["/usr/src/app/run.sh"]
